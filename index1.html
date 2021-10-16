@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
+
+    <title>ABATE PLAGIAR</title>
+</head>
+
+<body>
+
+    <div id="slideout-menu">
+        <ul>
+            <li>
+                <a href="index1.html">Home</a>
+            </li>
+            <li>
+                <a href="roke.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="login.html">Sign up</a>
+            </li>
+        
+            <li>
+                <a href="about.html">About</a>
+            </li>
+         
+        </ul>
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="#">
+                <img src="img/logo.jpg" alt="Plagiar Logo">
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index1.html">Home</a>
+            </li>
+            <li>
+                <a href="roke.html">Contact Us</a>
+            </li>
+            <li>
+                <a href="login.html">Sign up</a>
+            </li>
+           
+            <li>
+                <a href="about.html">About</a>
+            </li>
+         
+        </ul>
+    </nav>
+
+    <div id="banner">
+        <h1>ABATE PLAGIAR</h1>
+        <h3>Authenticity is Magnetic</h3>
+    </div>
+    
+    
+    <form action="/action_page.php">
+        <label for="Plagiar"><h4>CHECK OUT YOUR WORKS</h4></label>
+        <textarea id="document" name="Plagiarism" rows="10" cols="150">
+          Add your text here!
+          </textarea>
+          <br><br>
+          <input type="file" id="myFile" name="filename">
+            <input type="submit">
+    </form>
+       
+    
+    
+        <a href="index1.html">
+            <h2 class="section-heading">Abate Plagiarism</h2>
+        </a>
+        
+            <div class="row">
+                <div class="column">
+                  <img src="https://www.easybib.com/wp-content/uploads/2019/07/EB-Plagiarism-Illustration.png" alt="Nature" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                  <img src="https://www.quickanddirtytips.com/sites/default/files/images/7837/shutterstock_104491895.jpg" alt="Snow" onclick="myFunction(this);">
+                </div>
+              
+            
+              </div>
+              
+              <!-- The expanding image container -->
+              <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+              
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+              
+                <!-- Image text -->
+                <div id="imgtext"></div>
+              </div>
+
+       <br><br>
+            <a href="#" class="btn-readmore">GitHub Profile</a>
+        
+
+        <footer>
+         
+
+            <div id="right-footer">
+                <h3>Follow us on</h3>
+                <div id="social-media-footer">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>This website is developed by DAVIT's Creation</p>
+            </div>
+        </footer>
+------------fulll blogpost ------------
+    </main>
+    <script>
+        function myFunction(imgs) {
+  // Get the expanded image
+  var expandImg = document.getElementById("expandedImg");
+  // Get the image text
+  var imgText = document.getElementById("imgtext");
+  // Use the same src in the expanded image as the image being clicked on from the grid
+  expandImg.src = imgs.src;
+  // Use the value of the alt attribute of the clickable image as text inside the expanded image
+  imgText.innerHTML = imgs.alt;
+  // Show the container element (hidden with CSS)
+  expandImg.parentElement.style.display = "block";
+}
+    </script>
+    
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
